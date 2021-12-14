@@ -1,0 +1,6 @@
+{
+  "mongoURI":  "mongodb+srv://mariem:mariem@cluster0.ajnkb.mongodb.net/nextDB?retryWrites=true&w=majority",
+  "SecretOrkey":"SECRET",
+  "jwtToken": "mysecrettoken"
+ 
+}
