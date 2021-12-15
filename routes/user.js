@@ -16,7 +16,6 @@ router.post('/register',async (req, res) => {
             .status(400)
             .json({ errors: [{ msg: 'User already exists' }] });
         }
-        // get users gravatar
         user = new User({firstname,lastname, email, password});
         //encrypt password
   
